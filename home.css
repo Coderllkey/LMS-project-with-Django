@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+   color: white;    
+}
+.con{
+    width: 95%;
+}
+.sh{
+    /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+     */
+     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.nav{
+    height: 90%;
+    width: 80%;
+    /* background-color: #b4afbd; */
+    border-radius: 40px;
+
+}
+.n-item{
+    transition: .1s;
+    cursor: pointer;
+}
+.n-item:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgb(243, 16, 186);
+}
+.s2{
+    overflow: hidden;
+}
+.s2-d1{
+    height: 25%;
+}
+.s2-d2{
+    height: 15%;
+}
+.s2-d3{
+    height: 60%;
+    overflow: hidden;
+}
+.d1-d1{
+    width: 100%;
+    height: 75%;
+}
+.student-img{
+    position:absolute;
+    top: -10px;
+}
+.cards{
+    border-radius: 20px;
+
+}
+.lessons{
+    height: 80%;
+}
+.progress-bar{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: 7px solid rgb(14, 227, 235);
+    border-top-color:transparent ;
+}
+.arrow{
+    font-size: 60px;
+    color: black;
+}
+.arrow:hover{
+    transform: scale(1.1);
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.links{
+    transition: .3s;
+}
+.links:hover{
+    border-bottom-color: wheat;
+    border-bottom: 2px solid;
+    
+}
+.search{
+    border-radius: 30px;
+    height: fit-content;
+    width: 70%;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+.search input{
+    background-color: transparent;
+    border: none;
+    width: 70%;
+    
+}
+.search input:focus{
+    border: none !important;
+    outline: none;
+}
+.b-p{
+    width: 30%;
+}
+.pp {
+    background-color: rgb(233, 227, 233);
+    border-radius: 10px;
+    padding: 2px;
+    width: 50%;
+}
+.pp i{
+    cursor: pointer;
+}
+.info{
+    width: 49%;
+    height: 115px;
+}
+.number{
+    font-weight: 700;
+    font-size: 6rem;
+}
+.n-text{
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+.chart{
+    height: 270px;
+}
+.blub{
+    height: 135px;
+    
+}
+.item{
+    height: 80px;
+}
+
+
+
+
